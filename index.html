@@ -30,33 +30,37 @@
     <main class="max-w-[1140px] mx-auto manrope-regular">
 
         <!-- banner Section start from here -->
-        <div class="banner-container flex justify-between  text-[#1C1C1C] mt-[68px]">
-            <div class="banner-left">
+        <div class="banner-container flex flex-col lg:flex-row justify-between  text-[#1C1C1C] mt-[68px]">
+            <div class="banner-left mx-auto lg:mx-0">
                 <h1 class="text-[80px] font-extrabold">
-                    It's good <br>
-                    tea time at The <br>
+                    It's good <br class="hidden lg:block">
+                    tea time <br class="block lg:hidden"> at The <br class="hidden lg:block">
                     Tea House
                 </h1>
-                <p class="text-[18px] text-[#777777] my-[30px]">
-                    Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.
+                <p class="text-[25px] lg:text-[18px] text-[#777777] mt-0 lg:my-[30px] text-center lg:text-left">
+                    Tea and Botanical Solutions Supplier Give<br class="block lg:hidden"> Optimum <br
+                        class="hidden lg:block"> Satisfaction To Your
+                    Taste Buds.
                 </p>
                 <button
-                    class="py-[18px] px-[20px] text-white rounded-lg font-bold text-[20px] flex bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
+                    class="py-[18px] px-[20px] text-white rounded-lg font-bold text-[20px] flex bg-gradient-to-r from-[#FF8938] to-[#FF0000] mt-[30px] lg:mt-0 mx-auto lg:mx-0">
                     Explore More
                     <i class="fa-solid fa-arrow-right -rotate-45 font-normal text-3xl"></i>
                 </button>
             </div>
 
-            <div class="banner-right max-w-[45%] relative">
-                <div class="relative top-20">
+            <div class="banner-right max-w-[45%] relative  mx-auto lg:mx-0">
+                <div class="mt-[50px] lg:mt-0 lg:relative top-20">
                     <img src="./images/banner.png" alt="">
                 </div>
-                <div
-                    class="w-[255px] h-[100px] flex items-center gap-1.5 justify-center absolute z-10 bg-white  rounded-lg shadow-2xl">
-                    <i class="fa-solid fa-star"></i>
-                    <div>
-                        <h2>5.00</h2>
-                        <p>Trust Pilot Ratings</p>
+                <div class="hidden lg:block">
+                    <div
+                        class="w-[255px] h-[100px] flex items-center gap-1.5 justify-center absolute z-10 bg-white  rounded-lg shadow-2xl">
+                        <i class="fa-solid fa-star"></i>
+                        <div>
+                            <h2>5.00</h2>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,48 +68,59 @@
 
         <!-- Featured Products start from here -->
 
-        <div class="text-center mt-[140px]">
+        <div class="text-center mt-[30px] lg:mt-[140px]">
             <h1 class="text-[45px] font-extrabold">Our Featured Products</h1>
-            <p class="text-[#777777] font-medium max-w-[900px] mx-auto">There are many variations of passages of Lorem
+            <p class="text-[#777777] font-medium mx-[10px] max-w-[900px] lg:mx-auto text-[25px] lg:text-[16px]">There
+                are many
+                variations of
+                passages of Lorem
                 Ipsum
                 available, but
                 the majority have suffered alteration
                 in some form, by injected humour, or randomised words which don't look even slightly believable.
             </p>
 
-            <div class="mt-[50px] flex justify-between">
+            <div
+                class="mt-[50px] flex flex-col gap-5 lg:gap-0 lg:flex-row justify-center items-center lg:justify-between">
                 <div
-                    class="w-[267px] h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg flex flex-col justify-between py-[30px]">
-                    <img class="mx-auto" src="./images/tea-1.png" alt="">
-                    <h2 class="text-[25px] font-extrabold">Milk Tea</h2>
-                    <p class="text-[#777777] w-[208px] mx-auto">Creamer could be replaced by fresh milk</p>
+                    class="w-[400px] lg:w-[267px] h-[500px] lg:h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-2xl lg:rounded-lg flex flex-col justify-between py-[30px]">
+                    <img class="mx-auto w-[200px] lg:w-auto" src="./images/tea-1.png" alt="">
+                    <h2 class="text-[40px] lg:text-[25px] font-extrabold">Milk Tea</h2>
+                    <p class="text-[#777777] w-[208px] mx-auto text-[20px] lg:text-[16px]">Creamer could be replaced by
+                        fresh milk</p>
                 </div>
                 <div
-                    class="w-[267px] h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg flex flex-col justify-between py-[30px]">
-                    <img class="mx-auto" src="./images/tea-2.png" alt="">
-                    <h2 class="text-[25px] font-extrabold">Black Tea</h2>
-                    <p class="text-[#777777] w-[208px] mx-auto">Creamer could be replaced by fresh milk</p>
+                    class="w-[400px] lg:w-[267px] h-[500px] lg:h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-2xl lg:rounded-lg flex flex-col justify-between py-[30px]">
+                    <img class="mx-auto w-[200px] lg:w-auto" src="./images/tea-2.png" alt="">
+                    <h2 class="text-[40px] lg:text-[25px] font-extrabold">Black Tea</h2>
+                    <p class="text-[#777777] w-[208px] mx-auto text-[20px] lg:text-[16px]">Creamer could be replaced by
+                        fresh milk</p>
                 </div>
                 <div
-                    class="w-[267px] h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg flex flex-col justify-between py-[30px]">
-                    <img class="mx-auto" src="./images/tea-3.png" alt="">
-                    <h2 class="text-[25px] font-extrabold">Lemon Tea</h2>
-                    <p class="text-[#777777] w-[208px] mx-auto">Creamer could be replaced by fresh milk</p>
+                    class="w-[400px] lg:w-[267px] h-[500px] lg:h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-2xl lg:rounded-lg flex flex-col justify-between py-[30px]">
+                    <img class="mx-auto w-[200px] lg:w-auto" src="./images/tea-3.png" alt="">
+                    <h2 class="text-[40px] lg:text-[25px] font-extrabold">Lemon Tea</h2>
+                    <p class="text-[#777777] w-[208px] mx-auto text-[20px] lg:text-[16px]">Creamer could be replaced by
+                        fresh milk</p>
                 </div>
                 <div
-                    class="w-[267px] h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg flex flex-col justify-between py-[30px]">
-                    <img class="mx-auto" src="./images/tea-4.png" alt="">
-                    <h2 class="text-[25px] font-extrabold">Green Tea</h2>
-                    <p class="text-[#777777] w-[208px] mx-auto">Creamer could be replaced by fresh milk</p>
+                    class="w-[400px] lg:w-[267px] h-[500px] lg:h-[391px] bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-2xl lg:rounded-lg flex flex-col justify-between py-[30px]">
+                    <img class="mx-auto w-[200px] lg:w-auto" src="./images/tea-4.png" alt="">
+                    <h2 class="text-[40px] lg:text-[25px] font-extrabold">Green Tea</h2>
+                    <p class="text-[#777777] w-[208px] mx-auto text-[20px] lg:text-[16px]">Creamer could be replaced by
+                        fresh milk</p>
                 </div>
 
             </div>
         </div>
 
         <!-- Great Tea Section Added -->
-        <div class="mt-[130px] flex gap-[52px]">
-            <div class="w-1/2 grid grid-cols-2 grid-rows-3 gap-[30px]">
-                <div class="bg-gradient-to-r  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg">
+        <div class="mt-[70px] lg:mt-[130px] flex flex-col lg:flex-row gap-[25px] lg:gap-[52px]">
+            <h1 class="font-extrabold text-[45px] block lg:hidden text-center">
+                Great Tea, Freshly Presented
+            </h1>
+            <div class="w-1/2 grid grid-cols-2 grid-rows-2 lg:grid-rows-3 gap-[30px] mx-auto lg:mx-0">
+                <div class="bg-gradient-to-r from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg hidden lg:block">
                 </div>
                 <div class="row-span-2 bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg py-[40px]">
                     <img class="mx-auto" src="./images/fresh-1.png" alt="">
@@ -113,32 +128,32 @@
                 <div class="row-span-2 bg-gradient-to-b  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg py-[40px]">
                     <img class="mx-auto" src="./images/fresh-2.png" alt="">
                 </div>
-                <div class="bg-gradient-to-r  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg">
+                <div class="bg-gradient-to-r  from-[#ff0000]/20 to-[#ff8938]/20 rounded-lg hidden lg:block">
                 </div>
             </div>
-            <div class="w-1/2 flex flex-col justify-between">
-                <h1 class="font-extrabold text-[45px]">
+            <div class="w-full lg:w-1/2 flex flex-col justify-between px-[30px] lg:px-0 text-center lg:text-left">
+                <h1 class="font-extrabold text-[45px] hidden lg:block">
                     Great Tea, Freshly <br> Presented
                 </h1>
-                <p class="font-medium text-[16px] text-[#777777]">
+                <p class="font-medium text-[25px] lg:text-[16px] text-[#777777]">
                     The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
                     represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
                     appreciated by its custoers because of good words of mouth and unique customized service orginated
                     from Taiwan.
                 </p>
-                <h2 class="font-extrabold text-[20px]">
+                <h2 class="font-extrabold text-[30px] lg:text-[20px] mt-[20px] lg:mt-0">
                     Unique Taste
                 </h2>
 
-                <p class="font-medium text-[16px] text-[#777777]">
+                <p class="font-medium text-[25px] lg:text-[16px] text-[#777777]">
                     A Unique and different style from other teapots gives a luxurious and minimalist impression
                 </p>
 
-                <h2 class="font-extrabold text-[20px]">
+                <h2 class="font-extrabold text-[30px] lg:text-[20px] mt-[20px] lg:mt-0">
                     Premium Quality
                 </h2>
 
-                <p class="font-medium text-[16px] text-[#777777]">
+                <p class="font-medium text-[25px] lg:text-[16px] text-[#777777]">
                     Premium Quality that makes tea more elegant and more durable when you use it.
                 </p>
             </div>
@@ -148,22 +163,23 @@
         <!-- Super Clients Section Start From here -->
 
         <div
-            class="mt-[130px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex gap-[36px] rounded-lg px-[70px] py-[140px] items-center">
-            <div class="w-1/2 text-white">
+            class="mt-[50px] lg:mt-[130px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex flex-col lg:flex-row gap-[36px] rounded-lg px-[40px] lg:px-[70px] py-[50px] lg:py-[140px] items-center text-center lg:text-left">
+            <div class="w-full lg:w-1/2 text-white bg-[url('./images/bg_cup.png')] bg-no-repeat bg-bottom">
                 <h1 class="font-extrabold text-[45px]">Meet Our Super Clients</h1>
-                <p class="font-medium text-[16px] text-[#F4F4F4] mt-[20px] leading-[28px]">There are many variations of
+                <p class="font-medium text-[16px] text-[#F4F4F4] mt-[10px] lg:mt-[20px] leading-[28px]">There are many
+                    variations of
                     passages of Lorem Ipsum
                     available, but
                     the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable.</p>
-                <div class="bg-white inline-block rounded-lg mt-[30px]">
+                <div class="bg-white inline-block rounded-lg mt-[20px] lg:mt-[30px]">
                     <button
                         class="hover:cursor-pointer rounded-lg px-4 py-2 font-bold bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show
                         All</button>
                 </div>
             </div>
-            <div class="w-1/2 relative">
+            <div class="w-full lg:w-1/2 relative">
                 <div class="relative z-10">
                     <div class="relative inline-block">
                         <div class="absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
@@ -185,7 +201,7 @@
                     </div>
                 </div>
 
-                <div class="absolute top-[-140px] right-[-30px] z-0 opacity-20">
+                <div class="absolute top-[50px] lg:top-[-140px] right-[450px] lg:right-[-30px] z-0 opacity-20">
                     <div class="relative inline-block">
                         <div class="absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
                             <img src="./images/client.png" alt="">
@@ -207,7 +223,7 @@
                 </div>
 
 
-                <div class="absolute bottom-[-140px] right-[-30px] z-0 opacity-20">
+                <div class="absolute bottom-[-50px] lg:bottom-[-140px] right-0 lg:right-[-30px] z-0 opacity-20">
                     <div class="relative inline-block">
                         <div class="absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
                             <img src="./images/client.png" alt="">
@@ -233,9 +249,10 @@
 
 
         <!-- News & Events Section -->
-        <div class="text-center mt-[130px]">
+        <div class="text-center mt-[50px] lg:mt-[130px]">
             <h1 class="font-extrabold text-[45px]">News & Events</h1>
-            <p class="leading-[28px] text-[#777777] max-w-[901px] mx-auto mt-[20px]">There are many variations of
+            <p class="leading-[28px] text-[#777777] max-w-[901px] mx-[30px] lg:mx-auto mt-[20px]">There are many
+                variations of
                 passages of
                 Lorem Ipsum
                 available, but
@@ -243,39 +260,48 @@
                 in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
 
-        <div class="mt-[50px] flex justify-between">
-            <div class="p-[22px] rounded-lg border-1 border-gray-500 w-[364px] h-[448px] flex flex-col justify-between">
+        <div class="mt-[25px] lg:mt-[50px] flex flex-col gap-8 lg:gap-0 items-center lg:flex-row justify-between">
+            <div
+                class="p-[22px] rounded-lg border-1 border-gray-500 max-w-[400px] lg:w-[364px] max-h-[600px] lg:h-[448px] flex flex-col justify-between">
                 <img class="rounded-lg" src="./images/news-1.png" alt="">
-                <p class="text-[#777777] font-medium">Feb 05, 2027</p>
-                <h2 class="text-[20px] font-extrabold max-w-[225px]">Collecting 8 points for discount</h2>
-                <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum available.
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">Feb 05, 2027</p>
+                <h2 class="text-[30px] lg:text-[20px] font-extrabold w-full lg:max-w-[225px]">Collecting 8 points for
+                    discount</h2>
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">There are many
+                    variations of passages of Lorem Ipsum available.
                 </p>
-                <div class="inline-block">
+                <div class="inline-block text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">
                     <button class="font-bold hover:cursor-pointer">Learn More</button>
                 </div>
             </div>
 
 
-            <div class="p-[22px] rounded-lg border-1 border-gray-500 w-[364px] h-[448px] flex flex-col justify-between">
+            <div
+                class="p-[22px] rounded-lg border-1 border-gray-500 max-w-[400px] lg:w-[364px] max-h-[600px] lg:h-[448px] flex flex-col justify-between">
                 <img class="rounded-lg" src="./images/news-2.png" alt="">
-                <p class="text-[#777777] font-medium">Feb 05, 2027</p>
-                <h2 class="text-[20px] font-extrabold max-w-[225px]">Collecting 8 points for discount</h2>
-                <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum available.
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">Feb 05, 2027</p>
+                <h2 class="text-[30px] lg:text-[20px] font-extrabold w-full lg:max-w-[225px]">Collecting 8 points for
+                    discount</h2>
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">There are many
+                    variations of passages of Lorem Ipsum available.
                 </p>
-                <div class="inline-block">
+                <div class="inline-block text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">
                     <button class="font-bold hover:cursor-pointer">Learn More</button>
                 </div>
             </div>
 
 
 
-            <div class="p-[22px] rounded-lg border-1 border-gray-500 w-[364px] h-[448px] flex flex-col justify-between">
+            <div
+                class="p-[22px] rounded-lg border-1 border-gray-500 max-w-[400px] lg:w-[364px] max-h-[600px] lg:h-[448px] flex flex-col justify-between">
                 <img class="rounded-lg" src="./images/news-3.png" alt="">
-                <p class="text-[#777777] font-medium">Feb 05, 2027</p>
-                <h2 class="text-[20px] font-extrabold max-w-[225px]">Collecting 8 points for discount</h2>
-                <p class="text-[#777777] font-medium">There are many variations of passages of Lorem Ipsum available.
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">Feb 05, 2027</p>
+                <h2 class="text-[30px] lg:text-[20px] font-extrabold w-full lg:max-w-[225px]">Collecting 8 points for
+                    discount</h2>
+                <p class="text-[#777777] font-medium text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">There are many
+                    variations of passages of Lorem Ipsum available.
                 </p>
-                <div class="inline-block">
+                <div class="inline-block text-[25px] lg:text-[16px] mt-2.5 lg:mt-0">
                     <button class="font-bold hover:cursor-pointer">Learn More</button>
                 </div>
             </div>
@@ -284,20 +310,20 @@
     </main>
 
     <!-- Footer Section Start From here -->
-    <footer class="bg-[#ffeee9] mt-[130px] py-[130px] manrope-regular">
+    <footer class="bg-[#ffeee9] mt-[50px] lg:mt-[130px] py-[50px] lg:py-[130px] manrope-regular">
         <div class="flex max-w-[1140px] mx-auto justify-between items-center">
-            <img src="./images/cup.png" alt="">
-            <div class="flex gap-[40px] items-center">
-                <p class="text-[#494949] font-medium text-[20px]">Ready to get strated?</p>
+            <img class="hidden lg:block" src="./images/cup.png" alt="">
+            <div class="flex gap-[30px] lg:gap-[40px] items-center mx-auto lg:mx-0">
+                <p class="text-[#494949] font-medium text-[30px] lg:text-[20px]">Ready to get strated?</p>
                 <button
                     class="py-[18px] px-[20px] text-white rounded-lg font-bold text-[20px] flex bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Get
                     Started</button>
             </div>
         </div>
 
-        <div class="flex max-w-[1140px] mx-auto justify-between mt-[104px]">
-            <div class="flex flex-col gap-[22px]">
-                <h2 class="text-[#1C1C1C] text-[20px] font-bold">Quick Links</h2>
+        <div class="flex flex-col lg:flex-row max-w-[1140px] mx-auto justify-between mt-[50px] lg:mt-[104px]">
+            <div class="flex flex-col gap-[10px] lg:gap-[22px] mx-auto lg:mx-0 text-center lg:text-left">
+                <h2 class="text-[#1C1C1C] text-[30px] lg:text-[20px] font-bold">Quick Links</h2>
                 <p class="text-[20px] text-[#494949]">Home</p>
                 <p class="text-[20px] text-[#494949]">About Us</p>
                 <p class="text-[20px] text-[#494949]">Insurance</p>
@@ -305,8 +331,9 @@
             </div>
 
 
-            <div class="flex flex-col gap-[22px]">
-                <h2 class="text-[#1C1C1C] text-[20px] font-bold">Our Service</h2>
+            <div
+                class="flex flex-col gap-[10px] lg:gap-[22px] mx-auto lg:mx-0 text-center lg:text-left mt-[40px] lg:mt-0">
+                <h2 class="text-[#1C1C1C] text-[30px] lg:text-[20px] font-bold">Our Service</h2>
                 <p class="text-[20px] text-[#494949]">Life Insurance</p>
                 <p class="text-[20px] text-[#494949]">Car Insurance</p>
                 <p class="text-[20px]  text-[#494949]">Health Insurance</p>
@@ -314,17 +341,22 @@
             </div>
 
 
-            <div class="flex flex-col gap-[22px]">
-                <h2 class="text-[#1C1C1C] text-[20px] font-bold">Help</h2>
+            <div
+                class="flex flex-col gap-[10px] lg:gap-[22px] mx-auto lg:mx-0 text-center lg:text-left mt-[40px] lg:mt-0">
+                <h2 class="text-[#1C1C1C] text-[30px] lg:text-[20px] font-bold">Help</h2>
                 <p class="text-[20px]  text-[#494949]">FAQs</p>
                 <p class="text-[20px]  text-[#494949]">Contact Us</p>
             </div>
 
 
-            <div>
-                <h2 class="text-[24px] font-bold text-[#1C1C1C] max-w-[216px]">Subscribe to our newsletter</h2>
-                <div class="flex gap-2.5 mt-[40px]">
-                    <input class="border-b-2" type="email" name="" id="" placeholder="Email address">
+            <div class="mx-auto lg:mx-0">
+                <h2
+                    class="text-[35px] lg:text-[24px] font-bold text-[#1C1C1C] w-full lg:max-w-[216px] mt-[40px] lg:mt-0">
+                    Subscribe to
+                    our newsletter
+                </h2>
+                <div class="flex gap-2.5 mt-[20px] lg:mt-[40px] justify-center">
+                    <input class="border-b-2 text-2xl" type="email" name="" id="" placeholder="Email address">
                     <div
                         class="w-[40px] h-[40px] text-white justify-center rounded-full font-bold text-[20px] flex bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
                         <button>
@@ -332,7 +364,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="text-2xl mt-[48px] w-[120px] flex justify-between text-[#494949]">
+                <div
+                    class="text-3xl lg:text-2xl mt-[48px] w-[150px] lg:w-[120px] flex justify-between text-[#494949] mx-auto lg:mx-0">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
@@ -340,7 +373,8 @@
             </div>
         </div>
 
-        <p class="text-center text-[20px]  text-[#494949] mt-[60px]">© 2027 UIDesign.to - All rights reserved.</p>
+        <p class="text-center text-[20px]  text-[#494949] mt-[20px] lg:mt-[60px]">© 2027 UIDesign.to - All rights
+            reserved.</p>
     </footer>
 </body>
 
