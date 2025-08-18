@@ -33,9 +33,10 @@
         <div
             class="banner-container flex flex-col lg:flex-row justify-between  text-[#1C1C1C] mt-[20px] md:mt-[30px] lg:mt-[68px]">
             <div class="banner-left mx-auto lg:mx-0">
-                <h1 class="text-[40px] font-extrabold text-center lg:text-left">
-                    It's good <br class="hidden lg:block">
-                    tea time <br class="block lg:hidden"> at The <br class="hidden lg:block">
+                <h1 class="text-[40px] lg:text-6xl font-extrabold text-center lg:text-left">
+                    It's good <br class="block md:hidden">
+                    tea<br class="hidden lg:block"> time <br class="block md:hidden"> at<br class="hidden md:block"> The
+                    <br class="block md:hidden">
                     Tea House
                 </h1>
                 <p class="text-[15px] lg:text-[18px] text-[#777777] mt-0 lg:my-[30px] text-center lg:text-left">
@@ -57,10 +58,12 @@
                 <div class="hidden lg:block">
                     <div
                         class="w-[255px] h-[100px] flex items-center gap-1.5 justify-center absolute z-10 bg-white  rounded-lg shadow-2xl">
-                        <i class="fa-solid fa-star"></i>
+                        <div class="text-4xl text-amber-600">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                         <div>
-                            <h2>5.00</h2>
-                            <p>Trust Pilot Ratings</p>
+                            <h2 class="text-2xl font-extrabold">5.00</h2>
+                            <p class="font-bold">Trust Pilot Ratings</p>
                         </div>
                     </div>
                 </div>
@@ -169,11 +172,12 @@
         <!-- Super Clients Section Start From here -->
 
         <div
-            class="mt-[50px] lg:mt-[130px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex flex-col lg:flex-row gap-[36px] rounded-lg px-[40px] lg:px-[70px] py-[50px] lg:py-[140px] items-center text-center lg:text-left">
+            class="mt-[20px] md:mt-[50px] lg:mt-[130px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex flex-col lg:flex-row gap-[36px] rounded-lg px-0 lg:px-[70px] py-[50px] lg:py-[140px] items-center text-center lg:text-left">
+
             <div class="w-full lg:w-1/2 text-white bg-[url('./images/bg_cup.png')] bg-no-repeat bg-bottom">
                 <h1 class="font-extrabold text-[25px] lg:text-[45px]">Meet Our Super Clients</h1>
                 <p
-                    class="font-medium text-[15px] lg:text-[16px] text-[#F4F4F4] mt-[10px] lg:mt-[20px] leading-normal lg:leading-[28px]">
+                    class="font-medium text-[15px] lg:text-[16px] text-[#F4F4F4] mt-[10px] lg:mt-[15px] leading-normal lg:leading-[28px]">
                     There are many
                     variations of
                     passages of Lorem Ipsum
@@ -182,7 +186,7 @@
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
                     believable.</p>
                 <div
-                    class="bg-white inline-block rounded-lg py-[5px] lg:py-[18px] px-[10px] lg:px-[20px] font-bold text-[16px] lg:text-[20px] mt-[15px] lg:mt-0 mx-auto lg:mx-0">
+                    class="bg-white inline-block rounded-lg py-[5px] lg:py-[10px] px-[10px] lg:px-[25px] font-bold text-[16px] lg:text-[20px] mt-[15px] lg:mt-[30px] mx-auto lg:mx-0">
                     <button
                         class="hover:cursor-pointer rounded-lg bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show
                         All</button>
@@ -192,11 +196,11 @@
                 <div class="relative z-10">
                     <div class="relative inline-block">
                         <div
-                            class="w-[60px] h-[60px] lg:w-auto lg:h-auto absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
+                            class="w-[60px] h-[60px] lg:w-auto lg:h-auto absolute top-[-30px] left-1/2 -translate-x-1/2 md:left-[-30px] md:translate-x-0 bg-white p-[4px] rounded-full">
                             <img src="./images/client.png" alt="">
                         </div>
                         <div
-                            class="px-[20px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between min-h-[233px] lg:h-[233px] w-[80vw] md:w-[433px] bg-white rounded-lg">
+                            class="px-[10px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between min-h-[100px] lg:h-[233px] w-[80vw] md:w-[350px] bg-white rounded-lg">
                             <p class="leading-normal lg:leading-[28px] text-[15px] lg:text-[16px] text-[#777777]">
                                 We are providing the best and suitable home insurance services for the people who are
                                 interested to treatment
@@ -212,13 +216,13 @@
                 </div>
 
                 <div
-                    class="absolute top-[20px] md:top-[50px] lg:top-[-140px] right-[25px] md:right-[450px] lg:right-[-30px] z-0 opacity-20">
+                    class="absolute top-[20px] md:top-[30px] lg:top-[-140px] right-[25px] md:right-[450px] lg:right-[-30px] z-0 opacity-20 hidden md:block">
                     <div class="relative inline-block h-[400px]">
                         <div class="absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
                             <img src="./images/client.png" alt="">
                         </div>
                         <div
-                            class="px-[20px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between h-auto min-h-[233px] lg:h-[233px] w-[80vw] md:w-[433px] bg-white rounded-lg">
+                            class="px-[20px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between h-auto min-h-[100px] lg:h-[233px] w-[80vw] md:w-[350px] bg-white rounded-lg">
                             <p class="leading-[28px] text-[#777777]">
                                 We are providing the best and suitable home insurance services for the people who are
                                 interested to treatment
@@ -227,7 +231,7 @@
                             <h2 class="font-bold">Ilham Yuda</h2>
                             <p class="text-[#5D5A6F] font-medium">Businessman</p>
                         </div>
-                        <div class="absolute bottom-[25px] right-[25px]">
+                        <div class="absolute bottom-[25px] right-[25px] hidden">
                             <img src="./images/circles.png" alt="">
                         </div>
                     </div>
@@ -235,13 +239,13 @@
 
 
                 <div
-                    class="absolute bottom-[20px] md:bottom-[-50px] lg:bottom-[-140px] right-[-30px] md:right-0 lg:right-[-30px] z-0 opacity-20">
+                    class="absolute bottom-[20px] md:bottom-[25px] lg:bottom-[-140px] right-[-30px] md:right-[20px] lg:right-[-30px] z-0 opacity-20 hidden md:block">
                     <div class="relative inline-block">
                         <div class="absolute top-[-30px] left-[-30px] bg-white p-[4px] rounded-full">
                             <img src="./images/client.png" alt="">
                         </div>
                         <div
-                            class="px-[20px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between min-h-[233px] lg:h-[233px] w-[80vw] md:w-[433px] bg-white rounded-lg">
+                            class="px-[20px] lg:px-[50px] py-[30px] lg:py-[42px] flex flex-col justify-between min-h-[100px] lg:h-[233px] w-[80vw] md:w-[350px] bg-white rounded-lg">
                             <p class="leading-[28px] text-[#777777]">
                                 We are providing the best and suitable home insurance services for the people who are
                                 interested to treatment
@@ -250,7 +254,7 @@
                             <h2 class="font-bold">Ilham Yuda</h2>
                             <p class="text-[#5D5A6F] font-medium">Businessman</p>
                         </div>
-                        <div class="absolute bottom-[25px] right-[25px]">
+                        <div class="absolute bottom-[25px] right-[25px] hidden">
                             <img src="./images/circles.png" alt="">
                         </div>
                     </div>
@@ -323,7 +327,7 @@
     </main>
 
     <!-- Footer Section Start From here -->
-    <footer class="bg-[#ffeee9] mt-[30px] lg:mt-[130px] py-[30px] lg:py-[130px] manrope-regular px-5">
+    <footer class="bg-[#ffeee9] mt-[30px] lg:mt-[80px] py-[30px] lg:py-[50px] manrope-regular px-5">
         <div class="flex max-w-[1140px] mx-auto justify-between items-center">
             <img class="hidden lg:block" src="./images/cup.png" alt="">
             <div class="flex gap-[30px] lg:gap-[40px] items-center mx-auto lg:mx-0">
@@ -334,7 +338,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col lg:flex-row max-w-[1140px] mx-auto justify-between mt-[20px] lg:mt-[104px]">
+        <div class="flex flex-col lg:flex-row max-w-[1140px] mx-auto justify-between mt-[20px] lg:mt-[50px]">
             <div class="flex flex-col gap-[5px] lg:gap-[22px] mx-auto lg:mx-0 text-center lg:text-left">
                 <h2 class="text-[#1C1C1C] text-[20px] lg:text-[20px] font-bold">Quick Links</h2>
                 <p class="text-[15px] lg:text-[20px] text-[#494949]">About Us</p>
@@ -387,7 +391,7 @@
             </div>
         </div>
 
-        <p class="text-center text-[12px] lg:text-[20px]  text-[#494949] mt-[20px] lg:mt-[60px]">© 2027 UIDesign.to -
+        <p class="text-center text-[12px] lg:text-[20px]  text-[#494949] mt-[20px] lg:mt-[40px]">© 2027 UIDesign.to -
             All rights
             reserved.</p>
     </footer>
